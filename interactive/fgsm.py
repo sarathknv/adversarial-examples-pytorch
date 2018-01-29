@@ -78,7 +78,7 @@ while True:
 	# this is it, this is the method
 	inp.data = inp.data + (eps * torch.sign(inp.grad.data))
 	
-	inp.grad.data.zero_() # this just a compulsion, unnecessary here
+	inp.grad.data.zero_() # this is just a compulsion, unnecessary here
 
 	# predict on the adversarial image
 	pred_adv = np.argmax(model(inp).data.cpu().numpy())
