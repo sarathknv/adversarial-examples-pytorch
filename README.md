@@ -60,7 +60,7 @@ To test this, I've written `explore_space.py`.
 
  ![fgsm.gif](images/horse_explore_demo.gif)  
 
-This code adds to the input image `img`, a randomly generated perturbation (`vec1`) which is subjected to a max norm constraint `eps`. To explore a region (a hypersphere) around this adversarial image `img + vec1` , we add to it another perturbation (`vec2`) which is constrained by L<sub>2</sub> norm `rad`.  By pressing keys `e` and `r`, new `vec1` and `vec2` are generated respectively.  
+This code adds to the input image (`img`), a randomly generated perturbation (`vec1`) which is subjected to a max norm constraint `eps`. To explore a region (a hypersphere) around this adversarial image (`img + vec1`) , we add to it another perturbation (`vec2`) which is constrained by L<sub>2</sub> norm `rad`.  By pressing keys `e` and `r`, new `vec1` and `vec2` are generated respectively.  
 
  * Random perturbations   
  The classifier is robust to these random perturbations even though they have significantly higher max norm.  
@@ -88,7 +88,7 @@ A properly directed perturbation with max norm as low as 3, which is almost impe
 ```bash
 $ python3 one_pixel.py --img images/airplane.jpg --d 3 --iters 600 --popsize 10
 ```  
-Here, `d` is number of pixels to change (L<sub>0</sub> norm). Finding successful attacks was difficult. 
+Here, `d` is number of pixels to change (L<sub>0</sub> norm). Finding successful attacks was difficult. I noticed that only images with low confidence are giving successful attacks. 
 
 | ![cat](images/frog_8000.png) | ![airplane](images/bird_8073.png) |  
 |:----------------------------:|:---------------------------------:|  
