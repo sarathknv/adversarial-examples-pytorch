@@ -16,14 +16,14 @@ Paper: [Adversarial examples in the physical world](https://arxiv.org/abs/1607.0
 $ python3 fgsm.py --img images/goldfish.jpg --model inception_v3
 ```
 * **Control keys**  
-  - use trackbar to change `epsilon` (*L*<sub>*\infty*</sub> norm)  
+  - use trackbar to change `epsilon` (max norm)  
   - `esc` close  
   - `s` save perturbation and adversarial image  
 
 
 * **Demo**   
   
-![fgsm.gif](https://github.com/sarathknv/test/blob/master/images/fgsm.gif)  
+![fgsm.gif](images/fgsm.gif)  
 
 
 
@@ -44,7 +44,7 @@ $ python3 iterative.py --img images/goldfish.jpg --model resnet18 --y_target 4
 
 
 * **Demo**  
-![fgsm.gif](https://github.com/sarathknv/test/blob/master/images/iterative.gif)
+![fgsm.gif](images/iterative.gif)
 
 
 
@@ -58,7 +58,7 @@ not full of pockets of adversarial examples that finely tile the reals like the 
 
 To test this, I've written `explore_space.py`. 
 
- ![fgsm.gif](https://github.com/sarathknv/test/blob/master/images/horse_explore_demo.gif)  
+ ![fgsm.gif](images/horse_explore_demo.gif)  
 
 This code adds to the input image `img`, a randomly generated perturbation (`vec1`) which is subjected to a max norm constraint `eps`. To explore a region (a hypersphere) around this adversarial image `img + vec1` , we add to it another perturbation (`vec2`) which is constrained by L<sub>2</sub> norm `rad`.  By pressing keys `e` and `r`, new `vec1` and `vec2` are generated respectively.  
 
