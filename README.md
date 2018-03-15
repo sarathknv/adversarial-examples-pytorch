@@ -109,7 +109,7 @@ Paper: [Generative Adversarial Trainer: Defense to Adversarial Perturbations wit
 
 
 * To train ` python3 gat.py`  
-* Trainig has not been done. The generator doesn't converge. Also, I'm a bit skeptical about this, they did not show any adverarial images in paper.  
+* Trainig has not been done as generator doesn't converge. Also, I'm a bit skeptical about this, they did not show any adverarial images in paper.  
 
 
 
