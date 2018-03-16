@@ -14,7 +14,7 @@ from torchvision import transforms
 import numpy as np
 import cv2
 import argparse
-from imagenet_labels import classes
+from imagenet_classes import classes
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--img', type=str, default='images/goldfish.jpg', help='path to image')
