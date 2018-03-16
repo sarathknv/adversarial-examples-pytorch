@@ -139,5 +139,6 @@ are robust across any chosen distribution of transformations
 - [ ] [The Space of Transferable Adversarial Examples](https://arxiv.org/pdf/1704.03453.pdf) &mdash; novel methods for estimating dimensionality of the space of adversarial inputs  
 - [ ] [On Detecting Adversarial Perturbations](https://arxiv.org/pdf/1702.04267.pdf) &mdash; augment Neural Networks with a small detector subnetwork which performs binary classification on distinguishing genuine data from data containing adversarial perturbations  
 - [ ] [Towards Robust Deep Neural Networks with BANG](https://arxiv.org/pdf/1612.00138.pdf) &mdash; Batch Adjusted Network Gradients  
+- [ ] [Universal adversarial perturbations](https://arxiv.org/abs/1610.08401)  
 - [ ] Deepfool, JSMA, [CW](https://arxiv.org/pdf/1608.04644.pdf) &mdash; math intensive
 
