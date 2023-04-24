@@ -17,6 +17,7 @@ Implementation of papers with real-time visualizations and parameter control.
 * [AdvGAN - Generating Adversarial Examples with Adversarial Networks](adv_gan/)
 * [Spatially Transformed Adversarial Examples](spatially_transformed/)
 * [Generative Adversarial Trainer](gat/)
+* [Semantic Adversarial Examples](semantic_adversarial_examples/)
 
 
 
