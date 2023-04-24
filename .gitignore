@@ -1,3 +1,6 @@
 
 .DS_Store
 *.pyc
+semantic_adversarial_examples/.idea/vcs.xml
+*.iml
+*.xml
