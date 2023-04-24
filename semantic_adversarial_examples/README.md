@@ -62,7 +62,7 @@ Robust accuracy of single semantic attacks on ResNet50 trained on CIFAR-10.
 |     **Hue**     |                                         1.836                                          |                                          -0.193                                          |                                          -1.913                                          |                                          3.142                                          |                                          2.274                                          |
 
 
-
+&nbsp;
 ### Saturation
 
 |      Clean      |           <img src="examples/saturation/213_y_9_y_pred_9.png" alt="img" width="128">            |           <img src="examples/saturation/412_y_3_y_pred_3.png" alt="img" width="128">            |           <img src="examples/saturation/434_y_3_y_pred_3.png" alt="img" width="128">            |           <img src="examples/saturation/468_y_7_y_pred_7.png" alt="img" width="128">            |           <img src="examples/saturation/776_y_2_y_pred_2.png" alt="img" width="128">            |
@@ -73,7 +73,7 @@ Robust accuracy of single semantic attacks on ResNet50 trained on CIFAR-10.
 | **Saturation**  |                                              0.700                                              |                                              1.156                                              |                                              0.700                                              |                                              1.159                                              |                                              0.874                                              |
 
 
-
+&nbsp;
 ### Rotation
 
 |      Clean      |            <img src="examples/rotation/2_y_8_y_pred_8.png" alt="img" width="128">            |           <img src="examples/rotation/9_y_1_y_pred_1.png" alt="img" width="128">            |           <img src="examples/rotation/15_y_8_y_pred_8.png" alt="img" width="128">            |            <img src="examples/rotation/57_y_7_y_pred_7.png" alt="img" width="128">            |            <img src="examples/rotation/70_y_2_y_pred_2.png" alt="img" width="128">            |
@@ -84,7 +84,7 @@ Robust accuracy of single semantic attacks on ResNet50 trained on CIFAR-10.
 |  **Rotation**   |                                            -6.318                                            |                                            9.400                                            |                                            0.383                                             |                                            -9.586                                             |                                            10.000                                             |
 
 
-
+&nbsp;
 ### Brightness
 
 |      Clean      |            <img src="examples/brightness/2_y_8_y_pred_8.png" alt="img" width="128">            |            <img src="examples/brightness/57_y_7_y_pred_7.png" alt="img" width="128">            |           <img src="examples/brightness/103_y_3_y_pred_3.png" alt="img" width="128">            |            <img src="examples/brightness/118_y_2_y_pred_2.png" alt="img" width="128">            |            <img src="examples/brightness/313_y_0_y_pred_0.png" alt="img" width="128">            |
@@ -95,7 +95,7 @@ Robust accuracy of single semantic attacks on ResNet50 trained on CIFAR-10.
 | **Brightness**  |                                             -0.200                                             |                                             -0.150                                              |                                              0.125                                              |                                              -0.134                                              |                                              -0.023                                              |
 
 
-
+&nbsp;
 ### Contrast
 
 |      Clean      |           <img src="examples/contrast/2_y_8_y_pred_8.png" alt="img" width="128">            |           <img src="examples/contrast/57_y_7_y_pred_7.png" alt="img" width="128">            |           <img src="examples/contrast/70_y_2_y_pred_2.png" alt="img" width="128">            |           <img src="examples/contrast/103_y_3_y_pred_3.png" alt="img" width="128">            |           <img src="examples/contrast/140_y_6_y_pred_6.png" alt="img" width="128">            |
