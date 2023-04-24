@@ -106,6 +106,7 @@ Robust accuracy of single semantic attacks on ResNet50 trained on CIFAR-10.
 |  **Contrast**   |                                            0.773                                            |                                            0.836                                             |                                            1.109                                             |                                             0.700                                             |                                             0.711                                             |
 
 
+&nbsp;
 
 ## Citations
 
