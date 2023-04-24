@@ -51,7 +51,6 @@ Robust accuracy of single semantic attacks on ResNet50 trained on CIFAR-10.
 
 
 ## Examples
-Untargeted examples (read ibm repo different nomenclature)
 
 ### Hue
 
